@@ -13,6 +13,10 @@
 		572A8DA829333E7B00A6B5CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572A8DA629333E7B00A6B5CC /* Main.storyboard */; };
 		572A8DAA29333E7E00A6B5CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572A8DA929333E7E00A6B5CC /* Assets.xcassets */; };
 		572A8DAD29333E7E00A6B5CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572A8DAB29333E7E00A6B5CC /* LaunchScreen.storyboard */; };
+		572A8DB529335C5200A6B5CC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572A8DB429335C5200A6B5CC /* ProfileView.swift */; };
+		572A8DB729335CD400A6B5CC /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 572A8DB629335CD400A6B5CC /* ProfileView.xib */; };
+		572A8DB929336E1200A6B5CC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572A8DB829336E1200A6B5CC /* Profile.storyboard */; };
+		572A8DC12933701900A6B5CC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572A8DC02933701900A6B5CC /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		572A8DA929333E7E00A6B5CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		572A8DAC29333E7E00A6B5CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		572A8DAE29333E7E00A6B5CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		572A8DB429335C5200A6B5CC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		572A8DB629335CD400A6B5CC /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		572A8DB829336E1200A6B5CC /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		572A8DC02933701900A6B5CC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				572A8DA929333E7E00A6B5CC /* Assets.xcassets */,
 				572A8DAB29333E7E00A6B5CC /* LaunchScreen.storyboard */,
 				572A8DAE29333E7E00A6B5CC /* Info.plist */,
+				572A8DB629335CD400A6B5CC /* ProfileView.xib */,
+				572A8DB429335C5200A6B5CC /* ProfileView.swift */,
+				572A8DC02933701900A6B5CC /* ProfileViewController.swift */,
+				572A8DB829336E1200A6B5CC /* Profile.storyboard */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -125,7 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572A8DB729335CD400A6B5CC /* ProfileView.xib in Resources */,
 				572A8DAD29333E7E00A6B5CC /* LaunchScreen.storyboard in Resources */,
+				572A8DB929336E1200A6B5CC /* Profile.storyboard in Resources */,
 				572A8DAA29333E7E00A6B5CC /* Assets.xcassets in Resources */,
 				572A8DA829333E7B00A6B5CC /* Main.storyboard in Resources */,
 			);
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572A8DB529335C5200A6B5CC /* ProfileView.swift in Sources */,
 				572A8DA529333E7B00A6B5CC /* ViewController.swift in Sources */,
+				572A8DC12933701900A6B5CC /* ProfileViewController.swift in Sources */,
 				572A8DA129333E7B00A6B5CC /* AppDelegate.swift in Sources */,
 				572A8DA329333E7B00A6B5CC /* SceneDelegate.swift in Sources */,
 			);
